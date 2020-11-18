@@ -2,3 +2,9 @@ body {
 	background-color: white;
 	font-family: arial, sans-serif;
 }
+
+li {
+	float: left;
+	padding: 8px;
+	list-style-type: none;
+}
