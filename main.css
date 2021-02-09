@@ -3,6 +3,10 @@ body {
 	font-family: arial, sans-serif;
 }
 
+main {
+	display: grid;
+}
+
 li {
 	float: left;
 	padding: 8px;
