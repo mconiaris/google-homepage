@@ -6,9 +6,13 @@ body {
 
 
 nav {
-	display: grid;
-	justify-items: center;
 	padding: 1rem;
+}
+
+nav ul {
+	justify-content: center;
+	display: grid;
+	grid-template-columns: 80px 80px 80px 80px 80px;
 }
 
 
