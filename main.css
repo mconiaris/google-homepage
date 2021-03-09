@@ -10,10 +10,17 @@ nav {
 }
 
 nav ul {
-	justify-content: center;
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	column-gap: 5px;
+	display: flex;
+	margin: 0 -10px;
+}
+
+nav li {
+	margin: 0 10px;
+	list-style-type: none;
+}
+
+.push-right {
+	margin-left: auto;
 }
 
 main {
@@ -22,8 +29,3 @@ main {
 }
 
 
-li {
-	float: left;
-	padding: 8px;
-	list-style-type: none;
-}
